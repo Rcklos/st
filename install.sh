@@ -1,2 +1,2 @@
-make clean install
-rm -rf config.h *.o
+sudo make clean install
+rm -rf config.h *.o *.orig
