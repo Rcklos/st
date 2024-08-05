@@ -10,14 +10,6 @@ static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true:au
 static int borderpx = 2;
 
 /*
- * background image
- * expects farbfeld format
- * pseudo transparency fixes coordinates to the screen origin
- */
-static const char *bgfile = "/home/rcklos/.st-background-image.ff";
-static const int pseudotransparency = 0;
-
-/*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
